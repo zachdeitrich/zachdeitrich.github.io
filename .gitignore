@@ -1,4 +1,5 @@
-# Mac File System File
-.DS_Store
-_harp
-copy.sh
+_site
+.sass-cache
+.jekyll-metadata
+.DS_STORE
+rebuild.sh
