@@ -71,3 +71,22 @@ p.systems {
     margin: 0em 0.1em;
   }
 }
+
+/* Page Specific */
+/*  About */
+
+section.about {
+  width: 960px;
+  margin: 0 auto;
+  & > p {
+    font-family: monospace;
+    font-size: 3rem;
+    text-align: justify;
+    & > span {
+      font-family: "Helvetica Neue", Helvetica, sans-serif;
+      font-size: 2rem;
+      font-weight: bold;
+      white-space: nowrap;
+    }
+  }
+}
